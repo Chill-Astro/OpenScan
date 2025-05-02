@@ -1,12 +1,47 @@
-# OpenScan: An Efficient Open-Source Alternative to Java's Scanner
+<p align="center">
+  <img src="https://github.com/Chill-Astro/OpenScan/blob/main/OpenScan.png" width="1080px" height="200px" alt="Calculator Logo">
+</p>
 
-**OpenScan is an Open-Source Implementation of Scanner Class in Java but more Efficient.**
+OpenScan is a robust, efficient, and versatile Java library designed to replace the standard Scanner class for handling user input. It offers significant advantages in terms of performance, error handling, and flexibility, especially when dealing with large inputs or complex data formats.
 
 ---
 
-## Introduction :
+## Getting Started :
 
-`OpenScan` is a robust, efficient, and versatile Java library designed to replace the standard `Scanner` class for handling user input. While the built-in `Scanner` class is useful for basic tasks, `OpenScan` offers significant advantages in terms of performance, error handling, and flexibility, especially when dealing with large inputs or complex data formats.
+1.  **Download:** Clone or download the `OpenScan.java` file from this repository.
+2.  **Include:** Add the `OpenScan.java` file to your Java project.
+3.  **Create Object:** Create an Object from this Code:
+
+    ```java
+    OpenScan <object-name> = new OpenScan();
+    ```
+---
+
+## Usings :
+ 
+Assuming that sc is your OpenScan object,
+
+ - sc.next() reads the next token from the input.
+ - sc.nextInt() reads the next token as an integer.
+ - sc.nextDouble() reads the next token as a double.
+ - sc.nextLine() reads the next line of text.
+ - sc.nextChar() reads the first character of the next token.
+ - sc.nextBoolean() reads the next token as a boolean.
+ - sc.nextShort() reads the next token as a short.
+ - sc.nextByte() reads the next token as a byte.
+ - sc.nextLong() reads the next token as a long.
+ - sc.nextFloat() reads the next token as a float.
+ - sc.nextStringList() reads all remaining tokens from the current line as Strings.
+ - sc.nextIntArray(int count) reads multiple integers from the current line.
+ - sc.nextLongArray(int count) reads multiple longs from the current line.
+ - sc.nextDoubleArray(int count) reads multiple doubles from the current line.
+ - sc.readAllInts() reads all integers from the input until the end of input.
+ - sc.readAllDoubles() reads all doubles from the input until the end of input.
+ - sc.readAllLongs() reads all longs from the input until the end of input.
+ - sc.readAllStrings() reads all strings from the input until the end of input.
+ - sc.skipLines(int linesToSkip) skips a specified number of lines from the input.
+ - sc.hasNext() checks if there is another token available.
+ - sc.close() closes the underlying BufferedReader.
 
 ---
 
@@ -39,44 +74,5 @@
     * `hasNext()` method checks properly if the new token is available.
 * **Detailed Exception Handling:**
     * It handles all the exceptions clearly.
-
----
-
-## Getting Started :
-
-1.  **Download:** Clone or download the `OpenScan.java` file from this repository.
-2.  **Include:** Add the `OpenScan.java` file to your Java project.
-3.  **Create Object:** Create an Object from this Code:
-
-    ```java
-    OpenScan sc = new OpenScan();
-    ```
----
-
-## Usings :
- 
-Assuming that sc is your OpenScan object,
-
- - sc.next() reads the next token from the input.
- - sc.nextInt() reads the next token as an integer.
- - sc.nextDouble() reads the next token as a double.
- - sc.nextLine() reads the next line of text.
- - sc.nextChar() reads the first character of the next token.
- - sc.nextBoolean() reads the next token as a boolean.
- - sc.nextShort() reads the next token as a short.
- - sc.nextByte() reads the next token as a byte.
- - sc.nextLong() reads the next token as a long.
- - sc.nextFloat() reads the next token as a float.
- - sc.nextStringList() reads all remaining tokens from the current line as Strings.
- - sc.nextIntArray(int count) reads multiple integers from the current line.
- - sc.nextLongArray(int count) reads multiple longs from the current line.
- - sc.nextDoubleArray(int count) reads multiple doubles from the current line.
- - sc.readAllInts() reads all integers from the input until the end of input.
- - sc.readAllDoubles() reads all doubles from the input until the end of input.
- - sc.readAllLongs() reads all longs from the input until the end of input.
- - sc.readAllStrings() reads all strings from the input until the end of input.
- - sc.skipLines(int linesToSkip) skips a specified number of lines from the input.
- - sc.hasNext() checks if there is another token available.
- - sc.close() closes the underlying BufferedReader.
 
 ---
