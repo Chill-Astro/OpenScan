@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Chill-Astro/OpenScan/blob/main/OpenScan.png" width="500px" height="170px" alt="Calculator Logo">
+  <img src="https://github.com/Chill-Astro/OpenScan/blob/main/OpenScan.png" width="540px" height="200px" alt="Calculator Logo">
 </p>
  
 OpenScan is a robust, efficient, and versatile Java library designed to replace the standard Scanner class for handling user input. It offers significant advantages in terms of performance, error handling, and flexibility, especially when dealing with large inputs or complex data formats.
