@@ -76,3 +76,9 @@ Assuming that sc is your OpenScan object,
     * It handles all the exceptions clearly.
 
 ---
+
+## Note from Developer :
+
+Appreciate my effort? Why not leave a Star ⭐ ! Also if forked, please credit me for my effort and thanks if you do! :)
+
+---
